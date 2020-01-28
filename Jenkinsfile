@@ -9,7 +9,7 @@ pipeline {
 				steps {
 									bat """ cd "C:\\Users\\212614467\\Desktop\\CIWK17"
 									
-									mvn clean
+									mvn install
 									
 					"""
 				}
