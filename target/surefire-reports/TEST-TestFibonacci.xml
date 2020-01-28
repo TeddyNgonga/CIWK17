@@ -1,65 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestFibonacci" time="0.01" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="TestFibonacci" time="0.009" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.4+10-LTS"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\212614467\eclipse-workspace\CIWK17"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="GB"/>
+    <property name="java.vendor" value="IBM Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\IBM\Rational\Java\jre8\bin\compressedrefs\jclSC180\vm.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\se-service.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\math.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmorb.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmorbapi.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmcfw.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmpkcs.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmcertpathfw.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmjgssfw.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmjssefw.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmsaslfw.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmjcefw.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmjgssprovider.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmjsseprovider2.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\ibmcertpathprovider.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\xmldsigfw.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\xml.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\charsets.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\resources.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\rt.jar;C:\Program Files\IBM\Rational\Java\jre8\lib\dataaccess.jar"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="8.0.5.25 - pwa6480sr5fp25-20181030_01(SR5 FP25)"/>
+    <property name="user.name" value="212614467"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\IBM\Rational\Java\jre8\bin\compressedrefs;C:\Program Files\IBM\Rational\Java\jre8\bin"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\IBM\Rational\Java\jre8\bin\compressedrefs;C:\Program Files\IBM\Rational\Java\jre8\bin"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="com.ibm.system.agent.path" value="C:\Program Files\IBM\Rational\Java\jre8\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\IBM\Rational\Java\jre8\lib\endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="GB"/>
+    <property name="java.home" value="C:\Program Files\IBM\Rational\Java\jre8"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20181029_400846 (JIT enabled, AOT enabled)
+OpenJ9   - c5c78da
+OMR      - 3d5ac33
+IBM      - 8c1bdc2"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="2.9"/>
+    <property name="user.variant" value=""/>
+    <property name="console.encoding" value="Cp437"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="C:\Users\212614467"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="java.library.path" value="C:\Program Files\IBM\Rational\Java\jre8\bin\compressedrefs;C:\Program Files\IBM\Rational\Java\jre8\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Serena\Dimensions 12.2\CM\prog64;C:\Program Files (x86)\Serena\Dimensions 12.2\CM\prog;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\212614467\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor.url" value="http://www.ibm.com"/>
+    <property name="java.vm.vendor" value="IBM Corporation"/>
+    <property name="java.fullversion" value="8.0.5.25 - pwa6480sr5fp25-20181030_01(SR5 FP25)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20181029_400846 (JIT enabled, AOT enabled)
+OpenJ9   - c5c78da
+OMR      - 3d5ac33
+IBM      - 8c1bdc2"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\212614467\eclipse-workspace\CIWK17"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
     <property name="java.io.tmpdir" value="C:\Users\212614~1\AppData\Local\Temp\"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\212614467\Desktop\CIWK17"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="C:\Program Files\IBM\Rational\Java\jre8\lib\ext"/>
+    <property name="user.dir" value="C:\Users\212614467\Desktop\CIWK17"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\212614467\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15649679965275784523.tmp"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11.0.4/bin/server;C:/Program Files/Java/jdk-11.0.4/bin;C:\Program Files (x86)\Serena\Dimensions 12.2\CM\prog64;C:\Program Files (x86)\Serena\Dimensions 12.2\CM\prog;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\212614467\AppData\Local\Microsoft\WindowsApps;C:\Users\212614467\eclipse\java-2019-12\eclipse;;."/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\212614467"/>
-    <property name="user.timezone" value="Europe/London"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.vm.name" value="IBM J9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="212614467"/>
-    <property name="java.class.path" value="C:\Users\212614467\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923\jars\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
-    <property name="user.language" value="en"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.4"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\212614467\eclipse-workspace\CIWK17\EMBEDDED"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2019-07-16"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
   </properties>
-  <testcase classname="TestFibonacci" name="test" time="0.01"/>
+  <testcase classname="TestFibonacci" name="test" time="0.009"/>
 </testsuite>
