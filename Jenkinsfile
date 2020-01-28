@@ -7,7 +7,7 @@ pipeline {
 	
 		stage('Maven: clean project') {
 				steps {
-									bat """ cd "C:\\Users\\212614467\\Desktop\\CIWK17"
+									bat """ cd "C:\\Users\\212614467\\eclipse-workspace\\HelloMaven"
 									
 									mvn install
 									
